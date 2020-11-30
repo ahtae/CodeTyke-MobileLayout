@@ -34,6 +34,11 @@
         @media only screen and (max-width: $tablet) {
             border-radius: unset;
         }
+
+        @media only screen and (max-width: $mobile) {
+            background-color: transparent;
+            box-shadow: 0px 0px 0px 0px;
+        }
     }
 
     &__selections {
